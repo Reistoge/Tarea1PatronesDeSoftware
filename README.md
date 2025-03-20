@@ -1,4 +1,4 @@
-# Tarea 1
+ # <div align="center"> Tarea 1 </div> #
 <div align="center"> <img src="https://github.com/Reistoge/Tarea1PatronesDeSoftware/blob/main/images/a_250319_164225_0.png?raw=true" alt="Imagen 1"> <img src="https://github.com/Reistoge/Tarea1PatronesDeSoftware/blob/main/images/a_250319_164225_1.png?raw=true" alt="Imagen 2"> </div> </br>
 
 ## Item I.
@@ -7,6 +7,8 @@
 * Los problemas de diseño se enfocan más en el ocultamiento de información, ya que se accede directamente a atributos públicos, y también en la separación de intereses, ya que la clase `Hotel` no debería procesar la reserva.
 ## Item II y III
 * Los cambios realizados se pueden ver [aqui](https://github.com/Reistoge/Tarea1PatronesDeSoftware/tree/main/src) .
+* `Main.java` contiene el codigo nuevo y mejorado.
+* `ScriptInicial` contiene el codigo inicial del enunciado de la tarea a realizar.
 ## Item IV
 ### Clase `Reserva`
 * Se agregó la clase `Reserva`, la cual mejora la integridad conceptual y separa los intereses de nuestro programa. Además, debido a la relación que tiene la clase `Reserva`  con `Hotel` y Cliente, tendríamos un acoplamiento adecuado, ya que ocultamos correctamente la información y las funcionalidades de las clases están correctamente encapsuladas.
